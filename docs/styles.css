@@ -19,7 +19,12 @@ a {
 }
 a:hover {
     background-color: rgb(149, 149, 242);
+    text-decoration: none;
 }
 .active {
     background-color: rgb(74, 74, 157);
+}
+.carousel-control.left,
+.carousel-control.right {
+    background: transparent;
 }
