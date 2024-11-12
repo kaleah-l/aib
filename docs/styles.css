@@ -2,7 +2,8 @@ body {
     background-color: rgb(210, 210, 255);
     margin: 0px;
     padding: 0px;
-}
+ }
+ /*
 nav {
     background-color: rgb(107, 107, 228);
     margin: 0px;
@@ -23,8 +24,34 @@ a:hover {
 }
 .active {
     background-color: rgb(74, 74, 157);
-}
+} */
 .carousel-control.left,
 .carousel-control.right {
     background: transparent;
+}
+#nav {
+    background-color: rgb(57, 23, 125);
+    border: none;
+    padding: 15px;
+    border-radius: 0%;
+    margin: 0%;
+}
+.navbar-toggle {
+    border: none;
+}
+#navLink1,
+#navLink2,
+#navLink3,
+#navLink4 {
+    color: white;
+}
+#brandName {
+    color: white;
+}
+footer {
+    display: block;
+    background-color: rgb(57, 23, 125);
+    color: white;
+    width: 100%;
+    padding: 20px;
 }

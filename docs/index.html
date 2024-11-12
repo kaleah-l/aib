@@ -10,11 +10,26 @@
   </head>
 
   <body>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="story.html">Our Story</a>
-      <a href="learner.html">Learner Resources</a>
-      <a href="educator.html">Educator Resources</a>
+
+    <nav id="nav" class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="brandName" class="navbar-brand" href="#">Archaeology in a Box</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a id="navLink1" href="index.html">Home</a></li>
+            <li><a id="navLink2" href="story.html">Our Story</a></li>
+            <li><a id="navLink3" href="learner.html">Learner Resources</a></li>
+            <li><a id="navLink4" href="educator.html">Educator Resources</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <!--Carousel-->
@@ -52,11 +67,14 @@
       </a>
     </div>
 
-    <!-- jQuery library -->
+  <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   </body>
+  <footer>
+    <p>Archaeology in a Box</p>
+  </footer>
 </html>
