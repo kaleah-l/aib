@@ -51,7 +51,7 @@ li a:hover {
 
 /* Home1 */
 .home1 {
-    background-image: url(../../Images/HOME1.jpg);
+    background-image: url(Images/HOME1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
