@@ -69,12 +69,12 @@ li a:hover {
 }
 #learnMoreBtn {
     background-color: #fed49b;
+    color: black;
     border: none;
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
     font-size: 15px;
-    text-decoration: none;
 }
 #homeH1 {
     font-size: 40px;
@@ -98,7 +98,7 @@ li a:hover {
     padding: 10px;
     width: 220px;
     font-size: 20px;
-    text-decoration: none;
+    color: black;
 }
 #home2img {
     height: auto;
