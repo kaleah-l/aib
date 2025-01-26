@@ -41,6 +41,7 @@ li a:hover {
     color: white;
 }
 #boxLogo {
+    display: block;
     height: 40px;
     width: auto;
     float: left;
@@ -58,13 +59,13 @@ li a:hover {
     width: auto;
     padding-left: 10%;
     padding-top: 200px;
-    padding-right: 50%;
 }
 .home1text {
     text-align: left;
     color: white;
     margin: 0px;
     padding: 0px;
+    width: 600px;
 }
 #learnMoreBtn {
     background-color: #fed49b;
@@ -194,6 +195,8 @@ footer p {
 
 /* Mobile */
 @media only screen and (max-width: 1200px) {
+
+    /* Home2 */
     .flexParent {
         flex-direction: column;
     }
@@ -206,12 +209,13 @@ footer p {
     #home2img {
         margin-bottom: 40px;
     }
+
+    /* Home1 */
 }
 
 @media only screen and (max-width: 650px) {
-    #footerFlex{
-        background-color: aliceblue;
-    }
+
+    /* Home2 */
     #home2img {
         height: 300px;
         width: auto;
@@ -222,8 +226,8 @@ footer p {
     }
     #learnerBtn,
     #educatorBtn {
-    width: 160px;
-    font-size: 14px;
+        width: 160px;
+        font-size: 14px;
     }
     #home2tbTitle {
         font-size: 14px;
@@ -235,6 +239,35 @@ footer p {
     }
     #text1,
     #text2 {
-    width: 160px;
-    }  
+        width: 160px;
+    } 
+
+    /* nav */
+    li {
+        float: none;
+    }
+    #boxLogo {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+
+    /* Home1 */
+    #homeH1 {
+        font-size: 35px;
+    }
+    .home1 {
+        padding-top: 180px;
+    }
+    .home1text {
+        width: 400px;
+    }
+    #homeP1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    
 }
