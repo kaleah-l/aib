@@ -345,18 +345,18 @@ footer p {
     #learnerBtn,
     #educatorBtn {
         width: 125px;
-        font-size: 10px;
+        font-size: 9px;
     }
     #home2tbTitle {
-        font-size: 10px;
+        font-size: 9px;
         padding-bottom: 20px;
         padding-top: 20px;
     }
     #text {
-        font-size: 10px;
+        font-size: 9px;
     }
     #text1,
     #text2 {
-        width: 120px;
+        width: 125px;
     } 
 }
