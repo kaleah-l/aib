@@ -266,8 +266,97 @@ footer p {
     #homeP1 {
         font-size: 25px;
     }
+
+    /* footer */
+    #footerLogo {
+        height: 150px;
+        width: auto;
+    }
+    #footerInfo {
+        font-size: 20px;
+    }
+    #contact {
+        line-height: 30px;
+    }
+    #footerFlex {
+        height: 200px;
+    }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 500px) {
+    /* Home2 */
+    #home2img {
+        height: 250px;
+        width: auto;
+    }
+    #home2tb {
+        height: 250px;
+        width: 375px;
+    }
+    #learnerBtn,
+    #educatorBtn {
+        width: 140px;
+        font-size: 12px;
+    }
+    #home2tbTitle {
+        font-size: 12px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    #text {
+        font-size: 12px;
+    }
+    #text1,
+    #text2 {
+        width: 140px;
+    } 
     
+    /* Home1 */
+    .home1text {
+        width: 90%;
+    }
+
+    /* footer */
+    #footerLogo {
+        height: 100px;
+        width: auto;
+    }
+    #footerInfo {
+        font-size: 15px;
+    }
+    #contact {
+        line-height: 25px;
+    }
+    #footerFlex {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* Home2 */
+    #home2img {
+        height: 200px;
+        width: auto;
+    }
+    #home2tb {
+        height: 200px;
+        width: 300px;
+    }
+    #learnerBtn,
+    #educatorBtn {
+        width: 120px;
+        font-size: 10px;
+    }
+    #home2tbTitle {
+        font-size: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #text {
+        font-size: 10px;
+    }
+    #text1,
+    #text2 {
+        width: 120px;
+    } 
 }
