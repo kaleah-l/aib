@@ -2,7 +2,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: "Roboto", serif;
-    background-color: #e6f6fa;
+    /* background-color: #e6f6fa; */
+    background-color: black;
 }
 h1 {
     margin: 0px;
@@ -90,7 +91,7 @@ li a:hover {
 
 /* Home2 */
 #home2 {
-    background-image: url(Images/HOME2.jpg);
+    background-image: url(Images/Background2.jpg);
     background-size: cover;
     color: white;
     height: 750px;
@@ -408,7 +409,7 @@ footer p {
 }
 #story1 {
     background-image: url(Images/STORY1.jpg);
-    box-shadow: 10px 10px 50px 1px #000000;
+    /* box-shadow: 10px 10px 50px 1px #000000; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -453,12 +454,13 @@ footer p {
 
 
 
-
-
  
 #slideshow {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(Images/Background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Slideshow
@@ -549,3 +551,4 @@ footer p {
         from {opacity: .4}
         to {opacity: 1}
         }
+
