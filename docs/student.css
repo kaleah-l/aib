@@ -1,0 +1,47 @@
+/* body {
+    background-color: #e6f6fa;
+}
+#teamTable {
+    background-color: black;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin: 5%;
+}
+th {
+    padding: 20px;
+}
+td {
+    padding: 20px;
+}
+#teamFlex {
+    display: flex;
+    justify-content: center;
+} */
+
+body {
+    background-color: #e6f6fa;
+}
+
+#studentFlex {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 50px 1px #000000;
+    width: 300px;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 2%;
+}
+
+#studentFlex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#studentIMG {
+    height: 200px;
+}
