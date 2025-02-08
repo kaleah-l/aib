@@ -562,3 +562,87 @@ li a:hover {
         to {opacity: 1}
         }
 
+
+/* Learner */
+#sitesBtn,
+#galleryBtn {
+    background-color: #fed49b;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+#sitesBtn {
+    margin-right: 40px;
+}
+#sitesBtn:hover,
+#galleryBtn:hover {
+    background-color: #80d3ec;
+}
+#learnerBtns {
+    padding-top: 30px;
+    display: flex;
+}
+#learnerH1 {
+    font-size: 50px;
+}
+#learner1 {
+    background-image: url(Images/learner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    padding-left: 10%;
+    padding-top: 200px;
+}
+#learner1text {
+    text-align: left;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 700px;
+}
+
+
+/* educator */
+
+#updateBtn {
+    background-color: #fed49b;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+#updateBtn:hover {
+    background-color: #80d3ec;
+}
+#educatorH1 {
+    font-size: 50px;
+}
+#educator1 {
+    background-image: url(Images/educator1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    padding-left: 10%;
+    padding-top: 200px;
+}
+#educator1text {
+    text-align: left;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 700px;
+}
+
