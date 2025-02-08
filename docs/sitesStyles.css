@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", serif;
+    background-color: #e6f6fa;
+}
+
+#sitesFlex {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin: 5%;
+    box-shadow: 10px 10px 50px 1px #000000;
+}
+
+#siteIMG {
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+#halifaxBtn {
+    background-color: #fed49b;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+#halifaxBtn:hover {
+    background-color: #80d3ec;
+}
