@@ -1,0 +1,57 @@
+#educator2 {
+    background-image: url(Images/Background2.jpg);
+    background-size: cover;
+    color: white;
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#standardsBtn,
+#lessonsBtn {
+    background-color: #fed49b;
+    border: none;
+    padding: 10px;
+    width: 220px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+}
+#standardsBtn:hover,
+#lessonsBtn:hover {
+    background-color: #80d3ec;
+}
+#educator2tb {
+    background-color: #000000;
+    width: 700px;
+    height: 400px;
+    box-shadow: 10px 10px 50px 1px #000000;
+}
+#educator2tbTitle {
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+#eduText {
+    color: white;
+    font-size: 20px;
+}
+#eduText1,
+#eduText2 {
+    width: 220px;
+}
+#educatorFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.educatorFlex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
